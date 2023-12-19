@@ -144,7 +144,7 @@ nav {
 
 .image__container {
     position: relative;
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     place-content: center;
@@ -152,24 +152,25 @@ nav {
 
 .image__container img {
     width: 100%;
-    max-width: 300px;
+    /* max-width: 300px; */
     margin: auto;
     border-radius: 10px;
+    height:60%;
 }
 
 .image__container img:nth-child(1) {
-    transform: translateY(70px);
+    transform: translateY(10px);
 }
 
 .image__container img:nth-child(2) {
-    transform: translateY(-70px);
+    transform: translateY(-20px);
 }
 
 .image__content {
     position: absolute;
     width: 100%;
     max-width: 310px;
-    left: 50%;
+    left: 40%;
     top: 50%;
     transform: translate(-35%, 50%);
     background: linear-gradient(to right,
